@@ -1,7 +1,8 @@
 {
   "name": "apollo-client-monorepo",
   "private": true,
-  "license": "MIT",
+	"license": "MIT",
+	"version": "2.4.7-fork",
   "scripts": {
     "postinstall": "lerna exec -- npm install && lerna run prepare",
     "diff": "check-if-folder-contents-changed-in-git-commit-range",
